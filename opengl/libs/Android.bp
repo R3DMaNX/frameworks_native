@@ -101,7 +101,7 @@ cc_defaults {
         },
     },
     product_variables: {
-        aicp: {
+        six: {
             uses_nvidia_enhancements: {
                 cppflags: ["-DNV_ANDROID_FRAMEWORK_ENHANCEMENTS"],
             },
