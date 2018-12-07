@@ -184,7 +184,7 @@ bool HWComposer::onVsync(hwc2_display_t displayId, int64_t timestamp,
         // There have been reports of HWCs that signal several vsync events
         // with the same timestamp when turning the display off and on. This
         // is a bug in the HWC implementation, but filter the extra events
-        // out here so they don't cause havoc downstream.
+        // out here so they don't cause six downstream.
         if (timestamp == mLastHwVSync[disp]) {
             ALOGW("Ignoring duplicate VSYNC event from HWC (t=%" PRId64 ")",
                     timestamp);
